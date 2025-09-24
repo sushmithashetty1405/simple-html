@@ -1,0 +1,841 @@
+!SESSION 2025-07-12 15:35:19.068 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-12 15:35:23.618
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-12 15:35:24.127
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-12 15:35:26.316
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-12 15:35:27.230
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-12 15:35:27.230
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-12 15:35:28.083
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-12 15:35:28.083
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-07-12 15:35:39.126
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-12 15:35:42.741
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2025-07-12 15:37:19.933
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml
+Progress (1): 1.4/14 kBProgress (1): 2.8/14 kBProgress (1): 4.1/14 kBProgress (1): 5.5/14 kBProgress (1): 6.9/14 kBProgress (1): 8.3/14 kBProgress (1): 9.7/14 kBProgress (1): 11/14 kB Progress (1): 12/14 kBProgress (1): 14/14 kBProgress (1): 14 kB   Progress (2): 14 kB | 1.4/21 kBProgress (2): 14 kB | 2.8/21 kBProgress (2): 14 kB | 4.1/21 kBProgress (2): 14 kB | 5.5/21 kBProgress (2): 14 kB | 6.9/21 kBProgress (2): 14 kB | 8.3/21 kBProgress (2): 14 kB | 9.7/21 kBProgress (2): 14 kB | 11/21 kB Progress (2): 14 kB | 12/21 kBProgress (2): 14 kB | 14/21 kBProgress (2): 14 kB | 15/21 kBProgress (2): 14 kB | 17/21 kBProgress (2): 14 kB | 18/21 kBProgress (2): 14 kB | 19/21 kBProgress (2): 14 kB | 21 kB                              Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml[90m (14 kB at 12 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml[90m (21 kB at 16 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 1.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml[90m (1.1 kB at 11 kB/s)[0m
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.4.0:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.4.0:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.4.0:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0marchetype-catalog.xml
+Progress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.1/17 MB
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml
+Progress (1): 1.4/14 kBProgress (1): 2.8/14 kBProgress (1): 4.1/14 kBProgress (1): 5.5/14 kBProgress (1): 6.9/14 kBProgress (1): 8.3/14 kBProgress (1): 9.7/14 kBProgress (1): 11/14 kB Progress (1): 12/14 kBProgress (1): 14/14 kBProgress (1): 14 kB   Progress (2): 14 kB | 1.4/21 kBProgress (2): 14 kB | 2.8/21 kBProgress (2): 14 kB | 4.1/21 kBProgress (2): 14 kB | 5.5/21 kBProgress (2): 14 kB | 6.9/21 kBProgress (2): 14 kB | 8.3/21 kBProgress (2): 14 kB | 9.7/21 kBProgress (2): 14 kB | 11/21 kB Progress (2): 14 kB | 12/21 kBProgress (2): 14 kB | 14/21 kBProgress (2): 14 kB | 15/21 kBProgress (2): 14 kB | 17/21 kBProgress (2): 14 kB | 18/21 kBProgress (2): 14 kB | 19/21 kBProgress (2): 14 kB | 21 kB                              Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-metadata.xml[90m (14 kB at 12 kB/s)[0m
+Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/codehaus/mojo/maven-metadata.xml[90m (21 kB at 16 kB/s)[0m
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 1.1 kB                    Downloaded[90m from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0morg/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml[90m (1.1 kB at 11 kB/s)[0m
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.4.0:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.4.0:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.4.0:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[90mDownloading from [0mcentral[90m: https://repo.maven.apache.org/maven2/[0marchetype-catalog.xml
+Progress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.1/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.2/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.3/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.4/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.5/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.6/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.7/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.8/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 0.9/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.0/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.1/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.2/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.3/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.4/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.5/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.6/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.7/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.8/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 1.9/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.0/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.1/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.2/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.3/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.4/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.5/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.6/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.7/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.8/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 2.9/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.0/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.1/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.2/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.3/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.4/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.5/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.6/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.7/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.8/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 3.9/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.0/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.1/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.2/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.3/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.4/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.5/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.6/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.7/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.8/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 4.9/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.0/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.1/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.2/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.3/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.4/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.5/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.6/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.7/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.8/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 5.9/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.0/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.1/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.2/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.3/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.4/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.5/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.6/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.7/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.8/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 6.9/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.0/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.1/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.2/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.3/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.4/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.5/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.6/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.7/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.8/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 7.9/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.0/17 MBProgress (1): 8.1/17 MB
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:257)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:930)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:481)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:645)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1380)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1414)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:521)
+	... 1 more
+
+!ENTRY org.eclipse.jface 2 0 2025-07-12 15:43:03.380
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-12 15:43:03.382
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 15:43:05.555
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:151)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:246)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 15:43:06.784
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 18:04:01.070
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-12 18:04:10.263
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:82)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:54)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 18:09:05.162
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 18:38:25.104
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 18:52:58.507
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-12 18:53:37.662
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2025-07-13 10:54:02.364 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-13 10:56:29.447
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-13 10:56:30.308
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-13 10:56:38.335
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-13 10:56:41.044
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-13 10:56:41.044
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-13 10:56:43.128
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-13 10:56:43.128
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-13 10:57:57.503
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-13 10:58:10.288
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+!SESSION 2025-07-16 16:30:21.054 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-16 16:31:40.946
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-16 16:31:42.328
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-16 16:31:49.808
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-16 16:31:51.766
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-16 16:31:51.766
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-16 16:31:52.863
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-16 16:31:52.863
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-16 16:32:39.765
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-07-16 16:46:30.382
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-16 16:46:30.392
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-07-28 18:08:32.513 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-28 18:13:45.436
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-28 18:14:03.954
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-28 18:14:21.701
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-28 18:14:32.735
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-28 18:14:32.735
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-28 18:14:39.116
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-28 18:14:39.116
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-28 18:17:38.913
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-07-30 12:41:57.719 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-30 12:44:21.429
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-30 12:44:22.097
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-30 12:44:28.510
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-30 12:44:30.120
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-30 12:44:30.121
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-30 12:44:31.229
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-30 12:44:31.230
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-30 12:45:19.096
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 12:54:23.480
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 12:57:37.150
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jface 2 0 2025-07-30 12:58:08.046
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-30 12:58:08.046
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2025-07-30 13:17:19.923
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.ui.launch.LaunchList.getLast()" because "this.launches" is null
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown.update(AbstractLaunchToolbarPulldown.java:112)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$3.run(AbstractLaunchToolbarPulldown.java:134)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3727)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:167)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:561)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:368)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:389)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3060)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1193)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.Workbench.lambda$17(Workbench.java:2862)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4330)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3328)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3384)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3719)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+!SESSION 2025-07-30 18:08:23.967 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-30 18:11:42.699
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-30 18:11:43.695
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-30 18:11:54.015
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-30 18:11:58.273
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-30 18:11:58.273
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-30 18:12:01.874
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-30 18:12:01.874
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-30 18:13:46.882
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-30 18:13:53.175
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jface 2 0 2025-07-30 18:14:39.480
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-30 18:14:39.480
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-30 18:26:14.612
+!MESSAGE ExecutionException occurred during shutdown of EndpointProxy for org.eclipse.lsp4j.jsonrpc.RemoteEndpoint@44d5b247
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:220)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:413)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy15/jdk.proxy15.$Proxy38.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:218)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-07-30 18:26:14.710
+!MESSAGE DelegatingStreamConnectionProvider - Stopping Boot LS
+!SESSION 2025-07-30 18:31:54.531 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-30 18:32:01.973
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-30 18:32:02.882
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+!SESSION 2025-07-31 11:11:43.350 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 11:13:17.362
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-07-31 11:13:17.993
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-31 11:13:23.771
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 11:13:25.117
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 11:13:25.117
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-07-31 11:13:26.034
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-07-31 11:13:26.034
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-31 11:14:21.597
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-07-31 11:14:26.647
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.initialReconcile(JavaCompositeReconcilingStrategy.java:147)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.initialProcess(MonoReconciler.java:100)
+	at org.eclipse.jdt.internal.ui.text.JavaReconciler.initialProcess(JavaReconciler.java:425)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.jface 2 0 2025-07-31 12:17:48.908
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-31 12:17:48.913
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-08-11 21:51:23.002 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-11 21:53:04.776
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-11 21:53:05.428
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-11 21:53:11.031
+!MESSAGE Logback config file: C:\Users\sushm\OneDrive\Desktop\Spring_Student_Management\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-08-11 21:53:12.115
+!MESSAGE Unable to load resource file:/C:/Users/sushm/OneDrive/Desktop/Spring_Student_Management/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/sushm/OneDrive/Desktop/Spring_Student_Management/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/sushm/OneDrive/Desktop/Spring_Student_Management/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:287)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:263)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:166)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:368)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:244)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:604)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Users/sushm/OneDrive/Desktop/Spring_Student_Management/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Users/sushm/OneDrive/Desktop/Spring_Student_Management/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:114)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:326)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:260)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 21 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-08-11 21:53:12.119
+!MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
+!STACK 0
+java.lang.Exception
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:171)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:368)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:244)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:604)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.ui 2 0 2025-08-11 21:53:12.373
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-11 21:53:12.373
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-11 21:53:13.845
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-11 21:53:13.845
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-08-11 21:53:34.197
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-11 21:53:39.804
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sushm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
